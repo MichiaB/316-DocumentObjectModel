@@ -4,12 +4,14 @@ const answers = [
   "Why are you asking a inanimate object about your Future? ",
 ];
 
-const button = document.getElementById("button");
-console.log(" ");
+const button = document.querySelector("button");
 
 button.addEventListener("click", showAsnwer);
+{
+  console.log(button);
+}
 
 function showAsnwer() {
-   
-    document.getElementById("answer").textContent= " N/A ";
+    alert('Try Again')
+
 }
