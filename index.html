@@ -3,17 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <link rel="stylesheet" href="style.css">
    
 
     <title> Magic Crystal Ball </title>
 </head>
 <body>
-  
+
+<div class = "container">
+
     <h1> MAGIC CRYTAL BALL </h1>
         <h2> Try it out. Ask a question </h2>
-    
-    <script src="index.js"></script>
+ 
+<div>
+  <!-- Question Box -->
+<input type="text" id="question" placeholder = " Ask a Question">
+<br> 
+<br>
+<button onclick ="submit()" id="button">Tell Me My Fortune</button>
+
+<div class="answer" id = "answers"></div>
+
+</div>
+
+
+
+  
+
+</div>
+
+    <script src="index.js" defer></script>
 </body>
 </html>
