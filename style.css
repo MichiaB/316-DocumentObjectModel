@@ -1,6 +1,9 @@
 
 
 
+
+
+
 h1 {
     text-align: center;
 
@@ -8,41 +11,51 @@ h1 {
 
 h2 {
     text-align: center;
+    
 }
 
 div{
     text-align: center;
+    
 }
 
 input {
     text-align: center;
+    
 }
 
+body{
+   
+   
+    background-color: blueviolet;
+    background-color: gold;
+    background-color: blue;
 
+}
+/* background img*/
 .ft-container img{
     position: relative;
     bottom: 20px;
+  
 }
 
 .ft-container {
     position: relative;
     width: 100%;
-  
+    
 }
 
 
-@media (max-width:700px){
-      
-}
+
 
 .container{
 
     border: 2px solid orange;
     position: absolute;
-
+ 
    
     left:52%;
-    top: 30%;
+    top: 40%;
 
     transform: translateX(-50%);
     width: 300px;
