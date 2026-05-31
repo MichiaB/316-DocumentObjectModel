@@ -19,4 +19,7 @@ input {
 }
 
 
-
+img {
+    background-position: center ;
+    flex-wrap: wrap;
+}
