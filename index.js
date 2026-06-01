@@ -5,7 +5,7 @@ const answers = [
   "You Should Ask Your Therapist",
   "Why are you asking a inanimate object about your Future?",
   "Have you considered asking someone qualified?",
-  "Why are you asking a ball instead of making a decision?",
+  "Why are you asking a me instead of making a decision?",
   "My lawyer advised me not to answer that.",
   "The council has reviewed your question and remains confused.",
   "Your future is loading... please wait.",
