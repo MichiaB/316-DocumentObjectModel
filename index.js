@@ -1,7 +1,7 @@
 const output = document.getElementById("output");
 
 const answers = [
-  "How Should I Know",
+  "How Should I Know?",
   "You Should Ask Your Therapist",
   "Why are you asking a inanimate object about your Future?",
   "Have you considered asking someone qualified?",
