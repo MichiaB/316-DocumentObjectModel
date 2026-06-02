@@ -44,7 +44,22 @@ function submit() {
 
 
 
-// attempt at if/else loop 
+// attempt at if/else loop ( unable to get this to work)
+
+
+//submitButton.addEventListener("click", () => {
+  //  let submit = prompt ("Ask me a Question to know your Fortune");
+  //  if (submit === null) {
+    //    log.innerText = "Do you expect me to see the Future? Do I look like a Fortune Teller";
+    //        } else if ( submit.toLowerCase()=== "") {
+    //            log.innerText = " How should I know?"  
+     ///       } else if( submit.toLowerCase () === "") {
+      //          log.innerText = "Don't Quit Your Day Job Honey"
+      //      }
+ ////   console.log(submitButton);
+//});
+
+
 
 
 
