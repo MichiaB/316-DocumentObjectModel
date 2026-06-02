@@ -41,3 +41,14 @@ function submit() {
   }
   document.getElementById("output").textContent = response;
 }
+
+
+
+// attempt at if/else loop 
+
+
+
+
+
+// attempt at try/catch
+
