@@ -65,5 +65,19 @@ function submit() {
 
 
 
-// attempt at try/catch
+// attempt at try/catch>> unsure if this code fully works; I like the earlier code and how it works better.
 
+//function tellAnswer(){
+ // try{
+ //   const question = document.getElementById('question').value.trim();
+   // if (question ==="")
+ //     throw new Error ("You have to ask a question first");
+ /// }
+ // if (!dquestion.edsWith("?")){
+ //   throw new Error("That doesn't look like a question.");
+ // } catch (error):
+
+  //alert(error.message);
+
+
+//}
