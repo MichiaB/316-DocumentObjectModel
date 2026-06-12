@@ -12,6 +12,20 @@ const answers = [
   "That's above my pay grade.",
 ];
 
+const an2 = [
+  "Against all odds, you'll actually pull this off.",
+  "Success is coming. Try not to trip over it.",
+  "Your hard work is about to pay off. Weird how that works.",
+  "A big opportunity is headed your way.",
+  "You'll achieve something impressive and pretend it's no big deal.",
+  "The universe has approved your latest idea.",
+  "A goal you've been chasing is finally within reach.",
+  "Today is a good day to stop doubting yourself.",
+  "Someone important will notice your efforts soon.",
+  "Victory is yours. Please act surprised."
+];
+
+
 let index = 0;
 
 // click function to the button
@@ -20,11 +34,20 @@ const button = document.querySelector("button");
 // show reply when button click
 button.addEventListener("click", submit);
 
+
+const Textbox = document.createElement("TextBox");
+element.id = "Textbox"; 
+
+
+
+
 // alert reply
 
 function submit() {
   const randomIndex = Math.floor(Math.random() * answers.length);
   const response = answers[randomIndex];
+
+  
 
   // pop up alert for text box
 
