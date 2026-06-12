@@ -35,7 +35,9 @@ const button = document.querySelector("button");
 button.addEventListener("click", submit);
 
 
-const Textbox = document.createElement("TextBox");
+
+
+const textbox = document.createElement("TextBox");
 element.id = "Textbox"; 
 
 
