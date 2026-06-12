@@ -1,6 +1,6 @@
 const output = document.getElementById("output");
 
-const answers = [
+const lightRoast = [
   "How Should I Know?",
   "You Should Ask Your Therapist",
   "Why are you asking a inanimate object about your Future?",
@@ -12,18 +12,34 @@ const answers = [
   "That's above my pay grade.",
 ];
 
-const an2 = [
-  "Against all odds, you'll actually pull this off.",
-  "Success is coming. Try not to trip over it.",
-  "Your hard work is about to pay off. Weird how that works.",
-  "A big opportunity is headed your way.",
-  "You'll achieve something impressive and pretend it's no big deal.",
-  "The universe has approved your latest idea.",
-  "A goal you've been chasing is finally within reach.",
-  "Today is a good day to stop doubting yourself.",
-  "Someone important will notice your efforts soon.",
-  "Victory is yours. Please act surprised."
+const mediumRoast = [
+ "The spirits say yes... unfortunately, they also said that's usually your first mistake.",
+  "Absolutely. What could possibly go wrong? Besides everything.",
+  "The crystal ball laughed so hard it fogged up. Do with that information what you will.",
+  "The answer is yes, but confidence and competence are two different things.",
+  "Signs point to success. Your track record, however, remains unconvinced.",
+  "The universe supports your decision. For entertainment purposes.",
+  "My vision shows you achieving your goal after ignoring three obvious warning signs.",
+  "The stars say you're on the right path. Try not to wander off it immediately.",
+  "A great opportunity is coming your way. Please try not to scare it away.",
+  "The future looks bright. That's probably because someone more qualified turned the lights on."
 ];
+
+
+const darkRoast = [
+
+    "The spirits said no. They didn't even need to think about it.",
+  "That's certainly an idea. Not a good one, but an idea.",
+  "The crystal ball just rolled its eyes.",
+  "The future looks promising for everyone involved except you.",
+  "The spirits would like to know if this is a joke.",
+  "Your odds of success have been described as 'adorable.'",
+  "The spirits laughed. Then they refused to elaborate.",
+  "Your future self is already tired.",
+  "Honey, the spirits asked if you've considered making better choices.",
+  "Child, the answer is yes. The question is why."
+
+]
 
 
 let index = 0;
@@ -46,7 +62,7 @@ element.id = "Textbox";
 // alert reply
 
 function submit() {
-  const randomIndex = Math.floor(Math.random() * answers.length);
+  const randomIndex = Math.floor(Math.random() * lightRoast.length);
   const response = answers[randomIndex];
 
   

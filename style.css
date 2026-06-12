@@ -114,3 +114,23 @@ input {
   backdrop-filter: blur(200px);
   z-index: 2;
 }
+
+
+
+
+
+.btn {
+  padding: 10px  20px; 
+  cursor: pointer; 
+  border: none; 
+  background: none; 
+  font-size: 16px; 
+
+}
+
+.btn.active {
+  border-bottom: 3px solid black;
+  color: red; 
+  font-weight: bold; 
+}
+
