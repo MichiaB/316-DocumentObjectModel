@@ -57,6 +57,17 @@ const textbox = document.createElement("TextBox");
 element.id = "Textbox"; 
 
 
+for (let i = 0 ; i < lightRoast; i++){
+  console.log(lightRoast);
+}
+
+for (let i= 0 ; i < mediumRoast; i++){
+  console.log(mediumRoast);
+}
+
+for(let i = 0 ; i < darkRoast; i++){
+  console.log(darkRoast);
+}
 
 
 // alert reply
